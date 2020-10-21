@@ -1,3 +1,9 @@
-.navbar {
-    background-color: antiquewhite;
+.nav-item {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+}
+
+.navbar-brand{
+    color:red;
+    font-family: cursive;
 }
