@@ -5,7 +5,7 @@ export default function HeaderNav() {
     return (
         <div>
             <nav class="navbar   navbar-expand-lg navbar-blue bg-white">
-                <a class="navbar-brand " href="#">Tangible Creativity</a>
+                <a class="navbar-brand " href="/home">Tangible Creativity</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
