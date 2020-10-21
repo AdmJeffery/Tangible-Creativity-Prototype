@@ -1,6 +1,4 @@
 import React from "react";
-import CalendarForm from "../Calendar/index"
-import { Link } from 'react-router';
 import "./style.css";
 
 export default function HeaderNav() {
@@ -14,7 +12,7 @@ export default function HeaderNav() {
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                         <ul class="navbar-nav ">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="/home">HOME <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href ="/calendar">CLASSES</a>
