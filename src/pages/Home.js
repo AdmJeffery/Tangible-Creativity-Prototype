@@ -1,12 +1,13 @@
 import React from 'react'
-import Carousel from '../components/Carousel'
 
-export default function Calendar() {
+import HeaderNav from "../components/Header/index"
+import Carousel from "../components/Carousel/index"
+
+export default function Header() {
     return (
         <div>
-            <Carousel>
-
-            </Carousel>
+           <HeaderNav> </HeaderNav>
+           <Carousel></Carousel>
         </div>
     )
 }
