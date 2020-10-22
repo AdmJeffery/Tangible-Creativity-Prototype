@@ -12,6 +12,7 @@ export default function CalendarForm() {
     return (
         <div>
             <HeaderNav></HeaderNav>
+            <div className="m-5">
             <Calendar
                 localizer={localizer}
                 events={myEventsList}
@@ -19,6 +20,7 @@ export default function CalendarForm() {
                 endAccessor="end"
                 style={{ height: 500 }}
             />
+            </div>
         </div>
     )
 }
