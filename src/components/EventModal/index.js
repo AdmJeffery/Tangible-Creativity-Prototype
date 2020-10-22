@@ -1,3 +1,4 @@
+// import { Modal } from 'bootstrap'
 import React from 'react'
 import "./style.css"
 
@@ -8,7 +9,7 @@ export default function EventModal() {
             <button type="button" className="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelId">
               Launch
             </button>
-            
+
             {/* <!-- Modal --> */}
             <div className="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
                 <div className="modal-dialog" role="document">

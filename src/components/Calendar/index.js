@@ -6,12 +6,16 @@ import "react-big-calendar/lib/css/react-big-calendar.css";
 import HeaderNav from "../Header/index"
 
 const localizer = momentLocalizer(moment)
-const myEventsList = []
+const myEventsList = [{
+    start: Date.parse("October 25, 2020"),
+    end: Date.parse("October 25, 2020"),
+    title: "Crafting Some Cool Shit"
+  }]
+  console.log(moment())
 
 export default function CalendarForm() {
     return (
         <div>
-            <HeaderNav></HeaderNav>
             <div className="m-5">
             <Calendar
                 localizer={localizer}

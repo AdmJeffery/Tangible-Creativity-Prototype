@@ -5,21 +5,21 @@ import Calendar from "./pages/Calendar";
 import Payment from "./pages/Payment";
 import Signup from "./pages/Signup"
 import About from "./pages/About"
-import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import HeaderNav from "./components/Header";
 
 function App() {
   return (
     <Router>
       <div>
-        <Navbar />
+        <HeaderNav />
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/calendar" component={Calendar} />
           <Route exact path="/payment" component={Payment} />
           <Route exact path="/signup" component={Signup} />
-        <Footer />
+        <Footer />        
       </div>
     </Router>
   );
