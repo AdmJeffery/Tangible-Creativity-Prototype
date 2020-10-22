@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.css"
 
-export default function Carousel() {
+export default function Carousel(props) {
     return (
     <div>
         <div id="carouselId" className="carousel slide" data-ride="carousel">
@@ -12,21 +12,21 @@ export default function Carousel() {
             </ol>
             <div className="carousel-inner" role="listbox">
                 <div className="carousel-item active">
-                    <img data-src="holder.js/900x500/auto/#777:#555/text:First slide" alt="First slide"></img>
+                    <img data-src={props.image1} alt="First slide"></img>
                     <div className="carousel-caption d-none d-md-block">
                         <h3>Title</h3>
                         <p>Description</p>
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img data-src="holder.js/900x500/auto/#666:#444/text:Second slide" alt="Second slide"></img>
+                    <img data-src={props.image2} alt="Second slide"></img>
                     <div className="carousel-caption d-none d-md-block">
                         <h3>Title</h3>
                         <p>Description</p>
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img data-src="holder.js/900x500/auto/#666:#444/text:Third slide" alt="Third slide"></img>
+                    <img data-src={props.image3} alt="Third slide"></img>
                     <div className="carousel-caption d-none d-md-block">
                         <h3>Title</h3>
                         <p>Description</p>
