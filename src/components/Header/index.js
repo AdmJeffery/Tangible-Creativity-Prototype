@@ -18,10 +18,10 @@ export default function HeaderNav() {
                                 <a class="nav-link" href ="/calendar">CLASSES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">ABOUT</a>
+                                <a class="nav-link" href="/about">ABOUT</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">CONTACT</a>
+                                <a class="nav-link" href="/contact">CONTACT</a>
                             </li>
                         </ul>
                 </div>
