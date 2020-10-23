@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./style.css";
 import {
   Carousel,
   CarouselItem,
@@ -12,17 +13,19 @@ const items = [
     id: 1,
     altText: 'Slide 1',
     caption: 'Slide 1',
-    src:     './wallpaper-.jpg'
+    src:     './fall.jpg'
   },
   {
     id: 2,
     altText: 'Slide 2',
-    caption: 'Slide 2'
+    caption: 'Slide 2',
+    src:     './winter.jpg'
   },
   {
     id: 3,
     altText: 'Slide 3',
-    caption: 'Slide 3'
+    caption: 'Slide 3',
+    src:     './coffee.jpg'
   }
 ];
 
@@ -56,20 +59,22 @@ const Example = (props) => {
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
       >
-        <img src={item.src}  />
+        <img src={item.src} style={{display:'block', marginRight:'auto', marginLeft:'auto', width:'69%', height:'auto'}}/>
+        
         <CarouselCaption className="text-danger" captionText={item.caption} captionHeader={item.caption} />
       </CarouselItem>
     );
   });
 
   return (
-    <div>
+    <div className ="container-div">
       <style>
         {
           `.custom-tag {
               max-width: 100%;
               height: 500px;
               background: black;
+            
             }`
         }
       </style>
