@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFacebook } from 'react-icons/fa';
 import "./style.css";
 import Row from "../Row";
 import Col from "../Column"
