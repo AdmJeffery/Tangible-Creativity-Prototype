@@ -19,7 +19,7 @@ function App() {
           <Route exact path="/calendar" component={Calendar} />
           <Route exact path="/payment" component={Payment} />
           <Route exact path="/signup" component={Signup} />
-        <Footer />
+        
       </div>
     </Router>
   );
