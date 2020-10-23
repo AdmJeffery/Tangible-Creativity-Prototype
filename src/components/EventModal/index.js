@@ -1,34 +1,63 @@
-import React from 'react'
-import "./style.css"
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Modal from 'react-modal';
+
+const customStyles = {
+    content: {
+        top: '50%',
+        left: '50%',
+        right: 'auto',
+        bottom: 'auto',
+        marginRight: '-50%',
+        transform: 'translate(-50%, -50%)'
+    }
+};
 
 export default function EventModal() {
+    var subtitle;
+    const [modalIsOpen, setIsOpen] = React.useState(false);
+    function openModal() {
+        setIsOpen(true);
+    }
+
+    function afterOpenModal() {
+        // references are now sync'd and can be accessed.
+        subtitle.style.color = '#f00';
+    }
+
+    function closeModal() {
+        setIsOpen(false);
+    }
+
+    function saveEvent() {
+        //   save event to calendar
+    }
+
     return (
         <div>
-            {/* <!-- Button trigger modal --> */}
-            <button type="button" className="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelId">
-              Launch
-            </button>
-            
-            {/* <!-- Modal --> */}
-            <div className="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
-                <div className="modal-dialog" role="document">
-                    <div className="modal-content">
-                        <div className="modal-header">
-                            <h5 className="modal-title">Modal title</h5>
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                        </div>
-                        <div className="modal-body">
-                            Body
-                        </div>
-                        <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" className="btn btn-primary">Save</button>
-                        </div>
-                    </div>
+            <button onClick={openModal}>Add Event</button>
+            <Modal
+                isOpen={modalIsOpen}
+                onAfterOpen={afterOpenModal}
+                onRequestClose={closeModal}
+                style={customStyles}
+                contentLabel="Event Modal"
+            >
+
+                <h2 ref={_subtitle => (subtitle = _subtitle)}>Add an Event</h2>
+                <button onClick={closeModal}>close</button>
+                <button onClick={saveEvent}>save</button>
+                <div class="form-group">
+                    <label for="">Event Title</label>
+                    <input type="text"
+                        class="form-control" name="" id="" aria-describedby="helpId" placeholder=""></input>
+                    <label for="">Date</label>
+                    <input type="date"
+                        class="form-control" name="" id="" aria-describedby="helpId" placeholder=""></input>
                 </div>
-            </div>
+            </Modal>
         </div>
-    )
+    );
 }
+
+
