@@ -47,7 +47,7 @@ export default function EventModal() {
             // className="modal modal-content"
             >
 
-                <h2 ref={_subtitle => (subtitle = _subtitle)}>Add an Event</h2>
+                <h2 ref={_subtitle => (subtitle = _subtitle)} class="modal-title">Add an Event</h2>
                 <div className="form-group">
                     <label for="" class="modal-label">Event Title</label>
                     <input type="text"
