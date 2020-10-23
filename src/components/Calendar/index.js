@@ -3,7 +3,6 @@ import "./style.css";
 import { Calendar, momentLocalizer } from 'react-big-calendar'
 import moment from 'moment'
 import "react-big-calendar/lib/css/react-big-calendar.css";
-import HeaderNav from "../Header/index"
 
 const localizer = momentLocalizer(moment)
 const myEventsList = [{

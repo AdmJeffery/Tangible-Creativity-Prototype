@@ -9,7 +9,7 @@ const customStyles = {
         right: 'auto',
         bottom: 'auto',
         marginRight: '-50%',
-        transform: 'translate(-50%, -50%)'
+        transform: 'translate(-50%, -50%)',
     }
 };
 
@@ -34,7 +34,7 @@ export default function EventModal() {
     }
 
     return (
-        <div>
+        <div  className="ml-5">
             <button onClick={openModal}>Add Event</button>
             <Modal
                 isOpen={modalIsOpen}
@@ -47,13 +47,13 @@ export default function EventModal() {
                 <h2 ref={_subtitle => (subtitle = _subtitle)}>Add an Event</h2>
                 <button onClick={closeModal}>close</button>
                 <button onClick={saveEvent}>save</button>
-                <div class="form-group">
+                <div className="form-group">
                     <label for="">Event Title</label>
                     <input type="text"
-                        class="form-control" name="" id="" aria-describedby="helpId" placeholder=""></input>
+                        className="form-control" name="" id="" aria-describedby="helpId" placeholder=""></input>
                     <label for="">Date</label>
                     <input type="date"
-                        class="form-control" name="" id="" aria-describedby="helpId" placeholder=""></input>
+                        className="form-control" name="" id="" aria-describedby="helpId" placeholder=""></input>
                 </div>
             </Modal>
         </div>
