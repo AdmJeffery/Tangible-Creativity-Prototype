@@ -4,4 +4,9 @@ footer {
     position: absolute;
     bottom: 0;
     background-color: grey;
+    width: 100%
+  }
+  
+  p {
+ font-size: small;
   }
