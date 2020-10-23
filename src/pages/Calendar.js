@@ -4,7 +4,7 @@ import EventModal from '../components/EventModal'
 
 export default function Calendar() {
     return (
-        <div>
+        <div class="calendar">
             <CalendarForm>
             </CalendarForm>
             <br></br>
