@@ -7,8 +7,8 @@ export default function Calendar() {
         <div class="calendar">
             <CalendarForm>
             </CalendarForm>
-            <br></br>
-            <EventModal />
+            {/* <br></br>
+            <EventModal /> */}
         </div>
     )
 }
