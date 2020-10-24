@@ -13,7 +13,7 @@ const items = [
     id: 1,
     altText: 'Slide 1',
     caption: 'Slide 1',
-    src:     './fall.jpg'
+    src:     './pictures/Suede-Covered-Book.png'
   },
   {
     id: 2,
@@ -59,7 +59,7 @@ const Example = (props) => {
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
       >
-        <img src={item.src} style={{display:'block', marginRight:'auto', marginLeft:'auto', width:'69%', height:'auto'}}/>
+        <img src={item.src} style={{display:'block', marginRight:'auto', marginLeft:'auto', width:'auto', height:'99%'}}/>
         
         <CarouselCaption className="text-danger" captionText={item.caption} captionHeader={item.caption} />
       </CarouselItem>
