@@ -4,8 +4,8 @@ import "./style.css";
 export default function HeaderNav() {
     return (
         <div>
-            <nav className="navbar   navbar-expand-lg navbar-blue bg-white">
-                <a className="navbar-brand " href="/home">Tangible Creativity</a>
+            <nav className="navbar   navbar-expand-lg navbar-blue ">
+                <a className="navbar-brand " href="/home"><img src= "./pictures/TangibleCurvedColor.png" width="75%" height ="auto"/></a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

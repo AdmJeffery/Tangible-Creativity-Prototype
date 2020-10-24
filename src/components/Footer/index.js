@@ -18,8 +18,10 @@ export default function Footer() {
       <div className="col-md-6 mt-md-0 mt-3">
 
         
-        <h5 className="text-uppercase">Footer Content</h5>
-        <p>Here you can use rows and columns to organize your footer content.</p>
+        <h5 className="text-uppercase">About Tangible Creativity</h5>
+        <p>At Tangible Creativity, we specialize in helping people unleash their creative side through a hands-on learning.
+            Whether you are new to crafts or are an experienced artist in the Baltimore area, Our studio supplies a safe space for you to hone your craft.
+        </p>
 
       </div>
       
@@ -30,7 +32,7 @@ export default function Footer() {
       <div className="col-md-3 mb-md-0 mb-3">
 
         
-        <h5 className="text-uppercase">Links</h5>
+        <h5 className="text-uppercase">Site Menu</h5>
 
         <ul className="list-unstyled">
           <li>
@@ -52,7 +54,7 @@ export default function Footer() {
       <div className="col-md-3 mb-md-0 mb-3">
 
         
-        <h5 className="text-uppercase">Links</h5>
+        <h5 className="text-uppercase">Contact Info</h5>
 
         <ul className="list-unstyled">
           <li>
@@ -78,7 +80,7 @@ export default function Footer() {
   </div>
   
   <div className="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    <a> Tangible Creativity</a>
   </div>
   
 
