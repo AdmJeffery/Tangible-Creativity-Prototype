@@ -80,7 +80,7 @@ export default function Footer() {
   </div>
   
   <div className="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    <a> Tangible Creativity</a>
   </div>
   
 
