@@ -1,5 +1,6 @@
 .nav-item {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* this can override main google font on index.css at head level */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     justify-content: center;
 }
 
@@ -9,5 +10,5 @@
 }
 
 nav {
-    background-color: lightgray;
+    background-color: rgb(150, 142, 142);
 }
