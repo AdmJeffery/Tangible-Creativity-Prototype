@@ -13,7 +13,7 @@ app.post("/submit", ({ body }, res) => {
   });
 
   app.get("/api/newslettersubs", function(req, res) {
-    db.Image.find({}).then(function(dbNewsletterSubs) {
+    db.NewsletterSub.find({}).then(function(dbNewsletterSubs) {
       res.json(dbNewsletterSubs);
     });
   })
