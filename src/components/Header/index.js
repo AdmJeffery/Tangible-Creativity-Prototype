@@ -21,6 +21,9 @@ export default function HeaderNav() {
                                 <a className="nav-link" href="/about">ABOUT</a>
                             </li>
                             <li className="nav-item">
+                                <a className="nav-link" href="/signup">NEWSLETTER</a>
+                            </li>
+                            <li className="nav-item">
                                 <a className="nav-link" href="/contact">CONTACT</a>
                             </li>
                         </ul>
