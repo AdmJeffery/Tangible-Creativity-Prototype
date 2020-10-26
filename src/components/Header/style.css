@@ -11,12 +11,12 @@
 }
 
 nav {
-    background-color:rgb(150, 142, 142);
+    background-color:#2f1068;
     color: black;
 }
 
 .nav-link {
-    color: black;
+    color: white;
     border-left: solid;
     border-color: white;
 }
