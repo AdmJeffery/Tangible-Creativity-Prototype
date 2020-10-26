@@ -23,9 +23,20 @@ export default function Footer() {
             Whether you are new to crafts or are an experienced artist in the Baltimore area, Our studio supplies a safe space for you to hone your craft.
         </p>
 
+        <hr/>
+        <h5 className ="text-uppercase">Contact Us</h5>
+
+        <ul className = "list-unstyled">
+            <li>
+                <p>Phone:</p>
+            </li>
+            <li>
+                <p>Email:</p>
+            </li>
+        </ul>
       </div>
       
-
+        
       <hr className="clearfix w-100 d-md-none pb-3"/>
 
       
@@ -57,20 +68,22 @@ export default function Footer() {
       <div className="col-md-3 mb-md-0 mb-3">
 
         
-        <h5 className="text-uppercase">Contact Info</h5>
-
+        <h5 className="text-uppercase">Hours of Operation:</h5>
+        
         <ul className="list-unstyled">
           <li>
-            <a href="#!">Link 1</a>
+            Mon - Fri: 9 - 12:30 a.m., 2 - 8:30 p.m.
           </li>
           <li>
-            <a href="#!">Link 2</a>
+            Sat: 9 - 12:30 a.m.
           </li>
+          <br/>
           <li>
-            <a href="#!">Link 3</a>
+            Saturday Afternoons are reserved for parties, special events, and appointments.
           </li>
+          <br/>
           <li>
-            <a href="#!">Link 4</a>
+            Closed Sundays
           </li>
         </ul>
 
