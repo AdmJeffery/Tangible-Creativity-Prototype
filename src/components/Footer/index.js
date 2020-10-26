@@ -36,16 +36,19 @@ export default function Footer() {
 
         <ul className="list-unstyled">
           <li>
-            <a href="#!">Link 1</a>
+            <a href="/home">Home</a>
           </li>
           <li>
-            <a href="#!">Link 2</a>
+            <a href="/calendar">Classes</a>
           </li>
           <li>
-            <a href="#!">Link 3</a>
+            <a href="/about">About</a>
           </li>
           <li>
-            <a href="#!">Link 4</a>
+            <a href="/signup">Newsletter</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
 
