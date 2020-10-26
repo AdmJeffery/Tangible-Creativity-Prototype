@@ -6,6 +6,7 @@ import Payment from "./pages/Payment";
 import Signup from "./pages/Signup"
 import About from "./pages/About"
 import Admin from "./pages/Admin"
+import Contact from "./pages/Contact"
 import Footer from "./components/Footer";
 import HeaderNav from "./components/Header";
 
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/calendar" component={Calendar} />
           <Route exact path="/payment" component={Payment} />
           <Route exact path="/signup" component={Signup} />
+          <Route exact path="/contact" component={Contact} />
           <Route exact path="/admin" component={Admin} />
         <Footer />        
       </div>
