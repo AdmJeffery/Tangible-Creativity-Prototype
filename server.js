@@ -4,8 +4,8 @@ const mongoose = require("mongoose");
 
 const PORT = process.env.PORT || 3001;
 const app = express();
-const NewsleterSubs = "./src/models/newsletterSubs.js"
-// const apiRoutes = require("./routes/apiRoutes");
+const NewsleterSub = "./src/models/newsletterSubs.js"
+const apiRoutes = require("./src/routes/api.js");
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -17,12 +17,12 @@ if (process.env.NODE_ENV === "production") {
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/tangibleCreativity",
+  process.env.MONGODB_URI || "mongodb+srv://mr-cade:20164Runner@cluster0.qf7cp.mongodb.net/tangibleCreativity?retryWrites=true&w=majority",
   { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true }
 );
 
-// // Use apiRoutes
-// app.use("/api", apiRoutes);
+// Use apiRoutes
+app.use("/api", apiRoutes);
 
 // // Send every request to the React app
 // // Define any API routes before this runs
