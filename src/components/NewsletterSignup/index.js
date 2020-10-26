@@ -18,7 +18,7 @@ class NewsletterSignup extends React.Component {
         alert('A name was submitted: ' + this.state.value);
         event.preventDefault();
 
-        //   need to write a post route here
+        //   need to write a post route here 
     }
 
     render() {

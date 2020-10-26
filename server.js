@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
 
 const PORT = process.env.PORT || 3001;
 const app = express();
+const NewsleterSubs = "./src/models/newsletterSubs.js"
 // const apiRoutes = require("./routes/apiRoutes");
 
 // Define middleware here
@@ -16,7 +17,7 @@ if (process.env.NODE_ENV === "production") {
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/events",
+  process.env.MONGODB_URI || "mongodb://localhost/tangibleCreativity",
   { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true }
 );
 
