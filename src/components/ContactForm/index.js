@@ -21,9 +21,11 @@ export default class ContactForm extends React.Component {
         >
           {/* <!-- add your custom form HTML here --> */}
           <label>Your Email:</label>
+          <br></br>
           <input type="email" name="email" />
           <br></br>
           <label>Message:</label>
+          <br></br>
           <textarea type="text" name="message" />
           <br></br>
           {status === "SUCCESS" ? <p>Thanks! Your message has been submitted!</p> : <button>Submit</button>}
