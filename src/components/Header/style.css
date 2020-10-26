@@ -2,6 +2,7 @@
     /* this can override main google font on index.css at head level */
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     justify-content: center;
+    
 }
 
 .navbar-brand{
@@ -11,4 +12,11 @@
 
 nav {
     background-color: rgb(150, 142, 142);
+    color: black;
+}
+
+.nav-link {
+    color: black;
+    border-left: solid;
+    border-color: white;
 }
