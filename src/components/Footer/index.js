@@ -72,10 +72,10 @@ export default function Footer() {
         
         <ul className="list-unstyled">
           <li>
-            Mon - Fri: 9 - 12:30 a.m., 2 - 8:30 p.m.
+            Mon - Fri: 9 a.m. - 12:30 p.m., 2 - 8:30 p.m.
           </li>
           <li>
-            Sat: 9 - 12:30 a.m.
+            Sat: 9 a.m. - 12:30 p.m.
           </li>
           <br/>
           <li>

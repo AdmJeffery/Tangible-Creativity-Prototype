@@ -34,12 +34,12 @@ class NewsletterSignup extends React.Component {
                     <label>
                         Name:
                     <br></br>
-                        <input type="text" value={this.state.value} onChange={this.handleChange} />
+                        <input type="text" name="name" value={this.state.value} onChange={this.handleChange} />
                     </label>
                     <label>
                         Email:
                     <br></br>
-                        <input type="email" value={this.state.value}  onChange={this.handleChange}/>
+                        <input type="email" name="email" value={this.state.value}  onChange={this.handleChange}/>
                     </label>
                     <br></br>
                     <input type="submit" className="btn-primary" value="Subscribe!" />

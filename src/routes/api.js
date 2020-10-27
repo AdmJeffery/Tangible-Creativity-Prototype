@@ -1,8 +1,8 @@
 var db = require("../models");
 
-module.exports = function(app) {
+module.exports = function (app) {
 
-app.post("/submit", ({ body }, res) => {
+  app.post("/submit", ({ body }, res) => {
     User.create(body)
       .then(newsletterSub => {
         res.json(newsletterSub);
@@ -12,8 +12,8 @@ app.post("/submit", ({ body }, res) => {
       });
   });
 
-  app.get("/api/newslettersubs", function(req, res) {
-    db.NewsletterSub.find({}).then(function(dbNewsletterSubs) {
+  app.get("/api/newslettersubs", function (req, res) {
+    db.NewsletterSub.find({}).then(function (dbNewsletterSubs) {
       res.json(dbNewsletterSubs);
     });
   })
