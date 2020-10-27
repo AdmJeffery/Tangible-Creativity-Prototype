@@ -3,7 +3,7 @@ import CalendarForm from "../components/Calendar/index"
 
 export default function Calendar() {
     return (
-        <div class="calendar">
+        <div className="calendar">
             <CalendarForm>
             </CalendarForm>
            

@@ -4,19 +4,23 @@ import "./style.css";
 class NewsletterSignup extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { value: '' };
+        this.state = { name: '', email: '' };
 
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
     handleChange(event) {
-        this.setState({ value: event.target.value });
+        this.setState({ 
+            name: event.target.value,
+            email: event.target.value
+         });
     }
 
     handleSubmit(event) {
-        alert('A name was submitted: ' + this.state.value);
+        alert('A name was submitted: ' + this.state.name);
         event.preventDefault();
+        console.log(this.state.email)
 
         //   need to write a post route here 
     }
@@ -35,7 +39,7 @@ class NewsletterSignup extends React.Component {
                     <label>
                         Email:
                     <br></br>
-                        <input type="email" value={this.state.value} onChange={this.handleChange} />
+                        <input type="email" value={this.state.value}  onChange={this.handleChange}/>
                     </label>
                     <br></br>
                     <input type="submit" className="btn-primary" value="Subscribe!" />
