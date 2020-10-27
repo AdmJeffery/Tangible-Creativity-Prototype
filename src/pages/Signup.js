@@ -7,6 +7,7 @@ export default function Signup() {
             <NewsletterSignup/>
             {/* <br></br>
             <EventModal /> */}
+            
         </div>
     )
 }
