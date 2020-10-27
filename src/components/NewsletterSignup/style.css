@@ -1,7 +1,7 @@
 #signupCard {
     border: solid;
     border-radius: 3px;
-    border-color: navy;
+    border-color: #32126A;
     padding: 10px;
     background-color: #DCD6F7;
 }
@@ -9,7 +9,7 @@
 #infoCard {
     border: solid;
     border-radius: 3px;
-    border-color: navy;
+    border-color: #32126A;
     padding: 10px;
     background-color:#DCD6F7;
 }
