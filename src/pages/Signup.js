@@ -3,10 +3,11 @@ import NewsletterSignup from "../components/NewsletterSignup/index"
 
 export default function Signup() {
     return (
-        <div class="calendar">
+        <div className="calendar">
             <NewsletterSignup/>
             {/* <br></br>
             <EventModal /> */}
+            
         </div>
     )
 }
