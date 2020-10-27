@@ -34,7 +34,7 @@ class NewsletterSignup extends React.Component {
                         <div className="card-title"><h4>Our Newsletter</h4></div>
                         <div className="card-text">Stay up-to-date with all things Tangible Creativity! New crafts, events, and news will be at your fingertips so you never miss a beat! Craft on!</div>
                     </div>
-                    <img src="../../../public/pictures/Wire-Tree.jpg" className="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""></img>
+                    <img src={"../../../public/pictures/Wire-Tree.jpg"} className="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""></img>
                 </div>
                 
                 <div className="card col-md-4 m-5" id="signupCard">
