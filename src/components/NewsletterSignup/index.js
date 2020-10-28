@@ -1,6 +1,8 @@
 import React, { component } from "react";
+import API from "../../utils/API.js"
 import "./style.css";
-var route = require("../../routes/api")
+let route = require("../../routes/api")
+
 
 class NewsletterSignup extends React.Component {
     constructor(props) {
@@ -18,6 +20,11 @@ class NewsletterSignup extends React.Component {
         event.preventDefault();
         console.log(this.state.email)
 
+        API.saveSub({
+            name: this.state.name,
+            email: this.state.email
+        })
+        .catch(err => console.log(err))
         //   need to write a post route here 
     }
 

@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 
 const PORT = process.env.PORT || 3001;
 const app = express();
-const NewsletterSub = "./src/models/newsletterSubs.js"
+const NewsletterSub = require("./src/models/newsletterSubs.js")
 const apiRoutes = require("./src/routes/api.js");
 
 // Define middleware here
@@ -23,6 +23,7 @@ mongoose.connect(
 
 // Use apiRoutes
 app.use("/api", apiRoutes);
+
 
 // // Send every request to the React app
 // // Define any API routes before this runs
