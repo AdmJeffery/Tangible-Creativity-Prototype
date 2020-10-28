@@ -23,17 +23,7 @@ export default function Footer() {
             Whether you are new to crafts or are an experienced artist in the Baltimore area, our studio supplies a safe space for you to hone your craft.
         </p>
 
-        <hr/>
-        <h5 className ="text-uppercase">Contact Us</h5>
-
-        <ul className = "list-unstyled">
-            <li>
-                <p>Phone: </p>
-            </li>
-            <li>
-                <p>Email: createdbykatri@gmail.com</p>
-            </li>
-        </ul>
+       
       </div>
       
         
