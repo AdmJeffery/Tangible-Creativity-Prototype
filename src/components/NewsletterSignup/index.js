@@ -31,16 +31,12 @@ class NewsletterSignup extends React.Component {
     handleNameChange(event) {
         this.setState({
             name: event.target.value
-           
-           
         });   
     }
     
     handleEmailChange(event) {
         this.setState({
-           
             email: event.target.value
-           
         });   
     }
     
