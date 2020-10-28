@@ -1,7 +1,7 @@
 import React, { component } from "react";
 import API from "../../utils/API.js"
 import "./style.css";
-
+let route = require("../../routes/api")
 
 
 class NewsletterSignup extends React.Component {

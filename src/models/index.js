@@ -1,4 +1,4 @@
-
+const NewsletterSubs = require("./newsletterSubs");
 
 module.exports = {
     Events: require("./events"),
