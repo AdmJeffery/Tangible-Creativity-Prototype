@@ -13,7 +13,7 @@ export default class ContactForm extends React.Component {
     render() {
       const { status } = this.state;
       return (
-        <div class="card col-md-4 m-5" id="contact-form">
+        <div className="card col-md-4 m-5" id="contact-form">
             <div className="card-title"><h4>Please enter your email and message here:</h4>
                 </div>
         <form
