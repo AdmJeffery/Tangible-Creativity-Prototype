@@ -20,7 +20,7 @@ export default function Footer() {
         
         <h5 className="text-uppercase">About Tangible Creativity</h5>
         <p>At Tangible Creativity, we specialize in helping people unleash their creative side through a hands-on learning.
-            Whether you are new to crafts or are an experienced artist in the Baltimore area, Our studio supplies a safe space for you to hone your craft.
+            Whether you are new to crafts or are an experienced artist in the Baltimore area, our studio supplies a safe space for you to hone your craft.
         </p>
 
         <hr/>

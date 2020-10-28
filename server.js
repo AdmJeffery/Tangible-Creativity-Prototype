@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 
 const PORT = process.env.PORT || 3001;
 const app = express();
-const NewsleterSub = "./src/models/newsletterSubs.js"
+const NewsletterSub = "./src/models/newsletterSubs.js"
 const apiRoutes = require("./src/routes/api.js");
 
 // Define middleware here
