@@ -28,10 +28,10 @@ export default function Footer() {
 
         <ul className = "list-unstyled">
             <li>
-                <p>Phone:</p>
+                <p>Phone: </p>
             </li>
             <li>
-                <p>Email:</p>
+                <p>Email: createdbykatri@gmail.com</p>
             </li>
         </ul>
       </div>
