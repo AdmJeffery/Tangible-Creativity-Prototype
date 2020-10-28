@@ -4,8 +4,8 @@ const mongoose = require("mongoose");
 
 const PORT = process.env.PORT || 3001;
 const app = express();
-const NewsletterSub = require("./src/models/newsletterSubs.js")
-const apiRoutes = require("./src/routes/api.js");
+//const NewsletterSub = require("./models/newsletterSubs.js")
+const apiRoutes = require("./routes/api.js");
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -17,7 +17,7 @@ if (process.env.NODE_ENV === "production") {
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb+srv://mr-cade:20164Runner@cluster0.qf7cp.mongodb.net/tangibleCreativity?retryWrites=true&w=majority",
+  process.env.MONGODB_URI || "mongodb+srv://RB2199:Abc123@cluster0.moseu.mongodb.net/TangibleCreativity?retryWrites=true&w=majority",
   { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true }
 );
 
