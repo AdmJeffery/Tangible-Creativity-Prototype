@@ -1,5 +1,6 @@
 import React, { component } from "react";
 import "./style.css";
+var route = require("../../routes/api")
 
 class NewsletterSignup extends React.Component {
     constructor(props) {
