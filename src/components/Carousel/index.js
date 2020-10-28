@@ -67,10 +67,11 @@ const Example = (props) => {
   });
 
   return (
-    <div className ="container-div">
+    <div className ="container">
       <style>
         {
           `.custom-tag {
+            
               max-width: 100%;
               height: 500px;
               background: black;
