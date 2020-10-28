@@ -1,0 +1,22 @@
+.nav-item {
+    /* this can override main google font on index.css at head level */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    justify-content: center;
+    
+}
+
+.navbar-brand{
+    color:red;
+    font-family: cursive;
+}
+
+nav {
+    background-color:#2f1068;
+    color: black;
+}
+
+.nav-link {
+    color: white;
+    border-left: solid;
+    border-color: white;
+}
