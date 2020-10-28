@@ -24,15 +24,7 @@ mongoose.connect(
 // Use apiRoutes
 app.use("/api", apiRoutes);
 
-app.post("/submit", ({ body }, res) =>{
-  NewsletterSub.create(body)
-    .then(dbPoop => {
-      res.json(dbPoop)
-    })
-    .catch(err => {
-      res.json(err);
-    });
-})
+
 // // Send every request to the React app
 // // Define any API routes before this runs
 // app.get("*", function(req, res) {
