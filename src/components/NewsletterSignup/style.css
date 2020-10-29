@@ -5,7 +5,7 @@
     border-color: #32126A;
     padding: 10px;
     background-color: #DCD6F7;
-    
+    margin: auto;
 }
 
 #infoCard {
@@ -14,4 +14,5 @@
     border-color: #32126A;
     padding: 10px;
     background-color:#DCD6F7;
+    margin: auto;
 }
