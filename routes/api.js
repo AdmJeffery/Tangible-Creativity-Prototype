@@ -13,11 +13,14 @@ var router = require("express").Router();
   });
 
   router.get("/newslettersubs", function (req, res) {
-    db.NewsletterSub.find({}).then(function (dbNewsletterSubs) {
+    db.NewsletterSubs.find({}).then(function (dbNewsletterSubs) {
       res.json(dbNewsletterSubs);
+      console.log(dbNewsletterSubs)
     });
-    console.log(res)
   })
 
 
 module.exports =  router;
+
+
+
