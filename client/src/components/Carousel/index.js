@@ -25,7 +25,7 @@ const items = [
     id: 3,
     altText: 'Slide 3',
     caption: 'Pendant with stone',
-    src:     './pictures/Pendant-with-stone.jpg'
+    src:     './pictures/Pendant-withstone.jpg'
   }
 ];
 
