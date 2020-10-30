@@ -2,6 +2,12 @@ const express = require("express");
 const path = require("path");
 const mongoose = require("mongoose");
 
+// AUTH0 Packages ====================================
+const jwt = require('express-jwt');
+const jwtAuthz = require('express-jwt-authz');
+const jwksRsa = require('jwks-rsa');
+// ===================================================
+
 const PORT = process.env.PORT || 3001;
 const app = express();
 //const NewsletterSub = require("./models/newsletterSubs.js")
@@ -24,6 +30,33 @@ mongoose.connect(
 // Use apiRoutes
 //
 app.use("/api", apiRoutes);
+
+
+// ========================================================= Cade's AUTH0 code
+// Authorization middleware. When used, the
+// Access Token must exist and be verified against
+// the Auth0 JSON Web Key Set
+const checkJwt = jwt({
+  // Dynamically provide a signing key
+  // based on the kid in the header and 
+  // the signing keys provided by the JWKS endpoint.
+  secret: jwksRsa.expressJwtSecret({
+    cache: true,
+    rateLimit: true,
+    jwksRequestsPerMinute: 5,
+    jwksUri: `https://dev-14haqfy3.us.auth0.com/.well-known/jwks.json`
+  }),
+
+  // Validate the audience and the issuer.
+  audience: 'ttps://dev-14haqfy3.us.auth0.com/api/v2/',
+  issuer: `https://dev-14haqfy3.us.auth0.com/`,
+  algorithms: ['RS256']
+});
+// ===========================================================================
+
+
+
+
 
 
 // // Send every request to the React app
