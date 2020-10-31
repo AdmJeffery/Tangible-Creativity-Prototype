@@ -23,7 +23,7 @@ if (process.env.NODE_ENV === "production") {
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb+srv://AdmJeffery:jUP1t3r1@cluster0.moseu.mongodb.net/TangibleCreativity?retryWrites=true&w=majority",
+  process.env.MONGODB_URI || "mongodb+srv://RB2199:Abc123@cluster0.moseu.mongodb.net/TangibleCreativity?retryWrites=true&w=majority",
   { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true }
 );
 
