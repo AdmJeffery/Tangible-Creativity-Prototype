@@ -24,8 +24,6 @@ export default function CalendarForm() {
         className="myClassname"
         display="initial"
         position="relative"
-        margin="auto"
-        padding="50"
         allowFullScreen/>
 
             {/* <div className="m-5">
