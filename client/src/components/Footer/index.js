@@ -25,23 +25,23 @@ export default function Footer() {
         </p>
             <br></br>
             <a
+              className="mr-3"
               style={{color: 'white'}}
               href="https://www.facebook.com/"
               target="_blank"
               rel="noopener noreferrer"
             ><ImFacebook2 size={40} />
             </a>
-            <br></br>
-            <br></br>
+            
             <a
+              className="mr-3"
               style={{color: 'white'}}
               href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
             ><ImInstagram size={40}/>
             </a>
-            <br></br>
-            <br></br>
+            
             <a
               style={{color: 'white'}}
               href="https://www.twitter.com/"
