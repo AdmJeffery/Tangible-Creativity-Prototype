@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className="page-footer font-small blue pt-4">
 
 
-      <div className="container-fluid  text-center text-md-left">
+      <div className="container-fluid text-center text-md-left">
 
 
         <div className="row">

@@ -13,7 +13,7 @@ import HeaderNav from "./components/Header";
 function App() {
   return (
     <Router>
-      <div>
+      <div className ="overflow-auto">
         <HeaderNav />
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
@@ -23,7 +23,7 @@ function App() {
           <Route exact path="/signup" component={Signup} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/admin" component={Admin} />
-        <Footer />        
+            
       </div>
     </Router>
   );
