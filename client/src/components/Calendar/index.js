@@ -23,7 +23,7 @@ export default function CalendarForm() {
         id="myId"
         className="myClassname"
         display="initial"
-        position="absolute"
+        position="relative"
         allowFullScreen/>
 
             {/* <div className="m-5">
