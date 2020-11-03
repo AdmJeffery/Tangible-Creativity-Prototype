@@ -11,7 +11,8 @@
 }
 
 nav {
-    background-color:#2f1068;
+    background-image: linear-gradient(to bottom, #2f1068, #7c4bd6);
+    /* background-color:#2f1068; */
     color: black;
 }
 

@@ -2,10 +2,13 @@ import React from "react";
 import "./style.css";
 
 export default function HeaderNav() {
+
     return (
+        
         <div>
             <nav className="navbar   navbar-expand-lg navbar-dark ">
                 <a className="navbar-brand " href="/home"><img src= "./pictures/TangibleCurvedColor.png" width="75%" height ="auto"/></a>
+
                     <button className="navbar-toggler ml" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
