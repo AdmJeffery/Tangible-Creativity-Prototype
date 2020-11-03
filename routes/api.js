@@ -15,7 +15,7 @@ var router = require("express").Router();
   router.get("/newslettersubs", function (req, res) {
     db.NewsletterSubs.find({}).then(function (dbNewsletterSubs) {
       res.json(dbNewsletterSubs);
-      console.log(dbNewsletterSubs)
+      
     });
   })
 

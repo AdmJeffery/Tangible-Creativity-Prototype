@@ -20,3 +20,8 @@ nav {
     border-left: solid;
     border-color: white;
 }
+
+.navbar-toggler-icon {
+    color: red;
+
+}
