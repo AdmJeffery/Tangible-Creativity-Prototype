@@ -3,11 +3,22 @@ import axios from "axios";
 export default {
   // Gets all subs
   getSubs: function() {
-    return axios.get("/api/subscribers");
+    return axios
+    .get("/api/newslettersubs")
+    // .then(res => {
+     
+    //   const subs = res.data.results;
+    //   return subs.map(sub => {
+    //     return {
+    //       fullname : sub.name,
+    //       email : sub.email,
+    //     };
+    //   });
+    // })
   },
   
-  // Saves a book to the database
+  // Saves a sub to the database
   saveSub: function(subData) {
-    return axios.post("/api/subscribers", subData);
+    return axios.post("/api/newslettersubs", subData);
   }
 };
