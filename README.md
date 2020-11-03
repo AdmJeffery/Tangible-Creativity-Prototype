@@ -7,7 +7,7 @@
 ## Table of Contents:
 - [Description](#description)
 - [Developers](#developers)
-- [Tech Stack](#tech)
+- [Tech-Stack](#tech-stack)
 - [Preview](#preview)
 - [Questions](#questions)
 
@@ -24,6 +24,10 @@ Custom description
 - JavaScript
 - React.js
 - MongoDB
+
+
+## Preview
+
 
 
 ## Questions
