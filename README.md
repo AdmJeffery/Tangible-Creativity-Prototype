@@ -1,11 +1,8 @@
 ## Tangible - Creativity
  
 
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![TangibleCreativity](./client/public/pictures/TangibleStraightLetters.png)
 
-
-## Description
-Description of the project
 
 ## Table of Contents:
 - [Description](#description)
