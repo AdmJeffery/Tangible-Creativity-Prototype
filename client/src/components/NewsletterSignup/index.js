@@ -16,7 +16,7 @@ class NewsletterSignup extends React.Component {
     }
 
     handleSubmit(event) {
-        alert('A name was submitted: ' + this.state.name);
+        alert('Thank You for you Submission,' + this.state.name);
         event.preventDefault();
         console.log(this.state.email)
 
