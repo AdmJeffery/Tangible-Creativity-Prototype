@@ -1,6 +1,3 @@
-## Tangible - Creativity
- 
-
 ![TangibleCreativity](./client/public/pictures/TangibleStraightLetters.png)
 
 
