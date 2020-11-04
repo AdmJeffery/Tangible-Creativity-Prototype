@@ -28,7 +28,7 @@ if (process.env.NODE_ENV === "production") {
 app.use("/api", apiRoutes);
 
 app.use(function(req, res) {
-  res.sendFile(path.join(__dirname, "../client/build/index.html"));
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
 // Connect to the Mongo DB
 mongoose.connect(
