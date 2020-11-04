@@ -37,19 +37,18 @@ class Table extends Component {
 
         return (
             
-            <table style= {{marginTop:"5%", display:""}} class="table table-hover table-dark">
+            <table style= {{marginTop:"5%", width:"70%", marginLeft:"15%", marginRight:"15%", textAlign:"center"}} class="table table-hover table-bordered table-gradient">
             <thead>
               <tr>
-                
+                <th scope="col">Index</th>
                 <th scope="col">Name</th>
                 <th scope="col">Email</th>
-               
               </tr>
             </thead>
             <tbody>
              {this.state.items.map((items) =>
              {return(
-               <TableRow name = {items.name} email = {items.email}/>)
+               <TableRow id = {items._id} name = {items.name} email = {items.email}/>)
              })
             }
             </tbody>
