@@ -8,13 +8,13 @@ import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Auth0Provider
+    {/* <Auth0Provider
         domain="dev-14haqfy3.us.auth0.com"
         clientId="8bxQfuKZeqx877BtTv46AWw4XuPVMUNq"
-        redirectUri="localhost:3001/api/newslettersubs"
-    >
+        redirectUri={window.location.origin}
+    > */}
     <App />
-    </Auth0Provider>
+    {/* </Auth0Provider> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
