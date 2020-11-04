@@ -18,7 +18,7 @@ nav {
 
 .nav-link {
     color: white;
-    border-left: solid;
+    /* border-left: solid; */
     border-color: white;
 }
 
