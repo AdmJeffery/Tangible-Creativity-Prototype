@@ -15,9 +15,9 @@
 Custom description
 
 ## Developers 
-- Ammon Jeffrey
-- Cade Petersen
-- Rajesh Baduwal
+- Ammon Jeffrey (ADD YOUR OWN GITHUB)
+- Cade Petersen (ADD YOUR OWN GITHUB)
+- [Rajesh2199](https://github.com/Rajesh2199) 
 
 
 ## Tech Stack 
@@ -29,18 +29,11 @@ Custom description
 ## Preview
 
 
+### Deployed Link
+
 
 ## Questions
 ``If you have any questions please feel free to contact us at:``
 - Ammon Jeffrey  : (Add your own email)
 - Cade Petersen  : (Add your own email)
 - Rajesh Baduwal : baduraje@isu.edu
-
-
-Github Link
-- Ammon Jeffrey (ADD YOUR OWN GITHUB)
-- Cade Petersen (ADD YOUR OWN GITHUB)
-- [Rajesh2199](https://github.com/Rajesh2199) 
-
-
-### Deployed Link
