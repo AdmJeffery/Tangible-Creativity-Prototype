@@ -31,12 +31,16 @@ Custom description
 
 
 ## Questions
-If you have any questions please feel free to contact us.
-Email:
-baduraje@isu.edu
-(Add your own email)
-Github Link:
-[Rajesh2199](https://github.com/Rajesh2199)
+``If you have any questions please feel free to contact us at:``
+- Ammon Jeffrey  : (Add your own email)
+- Cade Petersen  : (Add your own email)
+- Rajesh Baduwal : baduraje@isu.edu
+
+
+Github Link
+- Ammon Jeffrey (ADD YOUR OWN GITHUB)
+- Cade Petersen (ADD YOUR OWN GITHUB)
+- [Rajesh2199](https://github.com/Rajesh2199) 
 
 
 ### Deployed Link
