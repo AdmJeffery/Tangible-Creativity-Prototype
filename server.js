@@ -23,8 +23,13 @@ if (process.env.NODE_ENV === "production") {
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb+srv://RB2199:Abc123@cluster0.moseu.mongodb.net/TangibleCreativity?retryWrites=true&w=majority",
-  { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true }
+  process.env.MONGODB_URI || 'mongodb://localhost/TangibleCreativity',
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+    useFindAndModify: false
+  }
 );
 
 // Use apiRoutes
