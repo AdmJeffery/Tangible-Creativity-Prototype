@@ -45,16 +45,16 @@ class NewsletterSignup extends React.Component {
     
         return (
             <div>
-                
-                <div className="card col-md-4 m-5" id="infoCard">
+                <br/>
+                <div className="card col-md-4 " id="infoCard">
                     <div className="card-body">
                         <div className="card-title"><h4>Our Newsletter</h4></div>
                         <div className="card-text">Stay up-to-date with all things Tangible Creativity! New crafts, events, and news will be at your fingertips so you never miss a beat! Craft on!</div>
                     </div>
                     <img src="" className="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""></img>
                 </div>
-                
-                <div className="card col-md-4 m-5" id="signupCard">
+                <br/>
+                <div className="card col-md-4 " id="signupCard">
                     <div className="card-title"><h4>Signup for our newsletter!</h4>
                     </div>
                     <form onSubmit={this.handleSubmit}>
@@ -72,6 +72,7 @@ class NewsletterSignup extends React.Component {
                         <input type="submit" className="btn-primary" value="Subscribe!"/>
                     </form>
                 </div>
+                <br/>
             </div>
         );
     }
