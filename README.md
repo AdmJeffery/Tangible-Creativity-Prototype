@@ -10,14 +10,15 @@
 - [Tech-Stack](#tech-stack)
 - [Preview](#preview)
 - [Questions](#questions)
+- [Github](#github)
 
 ## Description
 Custom description
 
 ## Developers 
-- Ammon Jeffrey (ADD YOUR OWN GITHUB)
-- Cade Petersen (ADD YOUR OWN GITHUB)
-- [Rajesh2199](https://github.com/Rajesh2199) 
+- Ammon Jeffrey 
+- Cade Petersen 
+- Rajesh Baduwal 
 
 
 ## Tech Stack 
@@ -37,3 +38,9 @@ Custom description
 - Ammon Jeffrey  : (Add your own email)
 - Cade Petersen  : (Add your own email)
 - Rajesh Baduwal : baduraje@isu.edu
+
+
+## Github
+- Ammon Jeffrey (ADD YOUR OWN GITHUB)
+- Cade Petersen (ADD YOUR OWN GITHUB)
+- [Rajesh2199](https://github.com/Rajesh2199)
