@@ -14,7 +14,9 @@ export default class ContactForm extends React.Component {
       const { status } = this.state;
       return (
         <div className="card col-md-4 m-5" id="contact-form">
-            <div className="card-title"><h4>Please enter your email and message here:</h4>
+            <div className="card-title"><h4>Contact Us</h4>
+            <p>Questions? Comments? Concerns?</p>
+            <p>Drop us a line using the form below and we'll get back to you as soon as we can!</p>
                 </div>
         <form
           onSubmit={this.submitForm}
