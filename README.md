@@ -13,7 +13,8 @@
 - [Github](#github)
 
 ## Description
-Custom description
+This website was custom designed for a craft studio Tangible Creativity in Baltimore. It provides customers a way to interact with the studio, book classes, pay for services, sign up for the newsletter, and to get in contact with studio management.
+
 
 ## Developers 
 - Ammon Jeffrey 
@@ -25,22 +26,25 @@ Custom description
 - JavaScript
 - React.js
 - MongoDB
+- Auth0
+- Setmore
+- FormSpree
 
 
 ## Preview
 
 
 ### Deployed Link
-
+https://salty-falls-58858.herokuapp.com/
 
 ## Questions
 ``If you have any questions please feel free to contact us at:``
 - Ammon Jeffrey  : (Add your own email)
-- Cade Petersen  : (Add your own email)
+- Cade Petersen  : cadelpetersen@gmail.com
 - Rajesh Baduwal : baduraje@isu.edu
 
 
 ## Github
 - Ammon Jeffrey (ADD YOUR OWN GITHUB)
-- Cade Petersen (ADD YOUR OWN GITHUB)
+- [mr-cade](https://github.com/mr-cade)
 - [Rajesh2199](https://github.com/Rajesh2199)
