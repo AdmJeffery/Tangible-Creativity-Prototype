@@ -11,7 +11,6 @@ import Contact from "./pages/Contact";
 import HeaderNav from "./components/Header";
 
 const history = createBrowserHistory();
-console.log("history: " + {history}) //returns "[object Object]"
 
 const ProtectedRoute = ({ component, ...args }) => (
   <Route component={withAuthenticationRequired(component)} {...args} />

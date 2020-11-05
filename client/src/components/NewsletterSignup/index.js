@@ -1,4 +1,4 @@
-import React, { component } from "react";
+import React from "react";
 import API from "../../utils/API.js"
 import "./style.css";
 
