@@ -36,12 +36,12 @@ https://salty-falls-58858.herokuapp.com/
 
 ## Questions
 ``If you have any questions please feel free to contact us at:``
-- Ammon Jeffrey  : (Add your own email)
+- Ammon Jeffrey  : savingphace@gmail.com
 - Cade Petersen  : cadelpetersen@gmail.com
 - Rajesh Baduwal : baduraje@isu.edu
 
 
 ## Github
-- Ammon Jeffrey (ADD YOUR OWN GITHUB)
+- [Ammon Jeffrey](https://github.com/AdmJeffery)
 - [mr-cade](https://github.com/mr-cade)
 - [Rajesh2199](https://github.com/Rajesh2199)
