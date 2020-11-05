@@ -13,6 +13,8 @@ export default class ContactForm extends React.Component {
     render() {
       const { status } = this.state;
       return (
+        <div>
+          <br/>
         <div className="card col-md-4" id="contact-form">
             <div className="card-title"><h4>Contact Us</h4>
             <p>Questions? Comments? Concerns?</p>
@@ -35,6 +37,8 @@ export default class ContactForm extends React.Component {
           {status === "SUCCESS" ? <p>Thanks! Your message has been submitted!</p> : <button>Submit</button>}
           {status === "ERROR" && <p>Ooops! There was an error. Please try again.</p>}
         </form>
+        </div>
+        <br/>
         </div>
       );
     }

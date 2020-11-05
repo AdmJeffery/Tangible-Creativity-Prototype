@@ -5,7 +5,7 @@ export default function About() {
     return (
         <div>
           <div className="media">
-            <img src="./pictures/Wire-Tree.jpg" className="mr-3" alt="..." margin ="auto"></img>
+            <img src="./pictures/Wire-Tree.jpg" className="mr-3" alt="..." margin ="auto" height = "auto"></img>
             <div className="media-body">
             <div className="card col-md-8 m-5" id="textCard">
         
