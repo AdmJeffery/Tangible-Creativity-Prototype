@@ -1,7 +1,5 @@
 import React from "react";
 import "./style.css";
-import Row from "../Row";
-import Col from "../Column"
 import { ImFacebook2, ImInstagram, ImTwitter } from 'react-icons/im'
 
 export default function Footer() {
