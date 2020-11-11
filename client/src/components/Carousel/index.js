@@ -61,7 +61,7 @@ const Example = (props) => {
       >
         <img src={item.src} style={{display:'block', marginRight:'auto', marginLeft:'auto', width:'auto', height:'99%'}}/>
         
-        <CarouselCaption className="text-danger" captionText={item.caption}  />
+        <CarouselCaption className="picname" color ="#effded" font-size="20%" captionText={item.caption}  />
       </CarouselItem>
     );
   });
