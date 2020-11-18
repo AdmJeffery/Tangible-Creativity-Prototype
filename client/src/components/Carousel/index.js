@@ -15,14 +15,14 @@ const items = [
     caption: 'Suede Covered Book',
     src:     './pictures/Suede-Covered-Book.png'
   },
+  // {
+  //   id: 2,
+  //   altText: 'Slide 2',
+  //   caption: 'Stained Glass Star',
+  //   src:     './pictures/Stained-glass-star.jpg'
+  // },
   {
     id: 2,
-    altText: 'Slide 2',
-    caption: 'Stained Glass Star',
-    src:     './pictures/Stained-glass-star.jpg'
-  },
-  {
-    id: 3,
     altText: 'Slide 3',
     caption: 'Pendant with stone',
     src:     './pictures/Pendant-withstone.jpg'
